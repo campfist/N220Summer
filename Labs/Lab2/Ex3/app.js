@@ -9,6 +9,7 @@ function setup() {
 //Draw the circle in the center of the canvas
 //Use an if statement to display the conditions for increasing the circle diamater 
 function draw() {
+    background(255);
     if(x > 200) {
         x = 1;
     } 
