@@ -3,7 +3,7 @@ var y = 300;
 
 //Create canvas
 function setup() {
-    createCanvas(2100, 2100);
+    createCanvas(2100, 600);
 }
 
 //Setup draw function & determine background color & 
