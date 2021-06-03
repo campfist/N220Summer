@@ -15,6 +15,6 @@ function feedDog() {
 
 //Create playWithDog function and display the dog's happiness
 function playWithDog() {
-    myDog.happiness = myDog.happiness + 5;
+    myDog.happiness = myDog.happiness + 5; 
     console.log(myDog.happiness);
 } 
