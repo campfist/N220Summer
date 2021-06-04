@@ -1,2 +1,2 @@
-var x = document.getElementById('square');
+var square 
 
