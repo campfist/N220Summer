@@ -13,5 +13,5 @@ function over() {
     newEl.style.backgroundColor = "#000000";
 }
 function out() {
-    newEl.style.backgroundColor = "0000FF";
+    newEl.style.backgroundColor = "#0000FF";
 }

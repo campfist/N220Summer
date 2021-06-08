@@ -13,7 +13,12 @@ dvSquare.style.width = width + "px";
 dvSquare.style.height = height + "px";
 
 //Setup increase div function 
-function increaseSq() {
-    dvSquare.style.width = (width + 0.1) + "px";
-    dvSquare.style.height = (height + 0.1) + "px";
+function increaseDiv() {
+    dvSquare.style.width = (width) + "px";
+    dvSquare.style.height = (height) + "px";
+
+    width = width * 1.1;
+    height = height * 1.1;
+
+    console.log(width);
 }
