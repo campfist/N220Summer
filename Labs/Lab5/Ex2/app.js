@@ -17,5 +17,5 @@ for(var x = 0; x < 101; x++) {
 
 //Setup backgroundcolor function
 function divColor() {
-    var c = Math.backgroundColor(Math.random() * 255)
+    var c = Math.floor(Math.random())
 }
