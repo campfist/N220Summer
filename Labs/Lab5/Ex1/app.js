@@ -1,5 +1,5 @@
 //Create new div element
-let dvSquare = document.getElementById("square");
+let dvSquare = document.getElementById("div");
 
 //Set width and height
 var width = 100;
