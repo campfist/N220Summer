@@ -14,6 +14,5 @@ function calculateTip() {
     let total = bill + tip;
 
     //Output the calculated tip and total to the console
-    console.log("Tip: " + tip);
-    console.log("Total: " + total);
+    console.log("Tip: $" + tip + ". " + "Total: $" + total);
 }
