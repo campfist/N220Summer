@@ -3,11 +3,15 @@ let newEl = document.getElementsByClassName("dvSquares");
 
 //Add event listener through for loop to assign color values to each square and call the click element
 for(var i = 0; i < newEl.length; i++) {
+
+    //Add event listener
     newEl[i].addEventListener("click", itsClicked);
 }
 
 //Create function for when div is clicked
 function itsClicked() {
+
+    //Use the this method to retrieve the desired attribute
     this.style.backgroundColor = this.getAttribute("data-color");
 }
 

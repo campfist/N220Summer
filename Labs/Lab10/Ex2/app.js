@@ -29,49 +29,49 @@ bt7.addEventListener("click", itsClicked7);
 bt8.addEventListener("click", itsClicked8);
 bt9.addEventListener("click", itsClicked9);
 
-//Create each function for each event listener
+//Create each function for each event listener and properly style the results div and display the colors defined div 
 function itsClicked1(event) {
     r = r + 1;
     result.style.backgroundColor = "rgb(" + r + "," + g + "," + b + ")";
-    color.innerHTML = "${r},${g},${b}";
+    color.innerHTML = `${r},${g},${b}`;
 }
 function itsClicked2(event) {
     r = r + 5;
     result.style.backgroundColor = "rgb(" + r + "," + g + "," + b + ")";
-    color.innerHTML = "${r},${g},${b}";
+    color.innerHTML = `${r},${g},${b}`;
 }
 function itsClicked3(event) {
     r = r + 10;
     result.style.backgroundColor = "rgb(" + r + "," + g + "," + b + ")";
-    color.innerHTML = "${r},${g},${b}";
+    color.innerHTML = `${r},${g},${b}`;
 }
 function itsClicked4(event) {
     g = g + 1;
     result.style.backgroundColor = "rgb(" + r + "," + g + "," + b + ")";
-    color.innerHTML = "${r},${g},${b}";
+    color.innerHTML = `${r},${g},${b}`;
 }
 function itsClicked5(event) {
     g = g + 5;
     result.style.backgroundColor = "rgb(" + r + "," + g + "," + b + ")";
-    color.innerHTML = "${r},${g},${b}";
+    color.innerHTML = `${r},${g},${b}`;
 }
 function itsClicked6(event) {
     g = g + 10;
     result.style.backgroundColor = "rgb(" + r + "," + g + "," + b + ")";
-    color.innerHTML = "${r},${g},${b}";
+    color.innerHTML = `${r},${g},${b}`;
 }
 function itsClicked7(event) {
     b = b + 1;
     result.style.backgroundColor = "rgb(" + r + "," + g + "," + b + ")";
-    color.innerHTML = "${r},${g},${b}";
+    color.innerHTML = `${r},${g},${b}`;
 }
 function itsClicked8(event) {
     b = b + 5;
     result.style.backgroundColor = "rgb(" + r + "," + g + "," + b + ")";
-    color.innerHTML = "${r},${g},${b}";
+    color.innerHTML = `${r},${g},${b}`;
 }
 function itsClicked9(event) {
     b = b + 10;
     result.style.backgroundColor = "rgb(" + r + "," + g + "," + b + ")";
-    color.innerHTML = "${r},${g},${b}";
+    color.innerHTML = `${r},${g},${b}`;
 }
