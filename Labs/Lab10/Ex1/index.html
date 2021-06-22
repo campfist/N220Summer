@@ -6,8 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 
+    <!--Create style for the divs-->
     <style>
-        div {
+        .dvSquares {
             width: 200px;
             height: 200px;
             background-color: gray;
@@ -19,9 +20,10 @@
 </head>
 <body>
 
-    <div id="oneSquare" data-color="red"></div>
-    <div id="twoSquare" data-color="green" onclick="itsClicked(event)"></div>
-    <div id="threeSquare" data-color="blue" onclick="itsClicked(event)"></div>
+    <!--Create Divs and set each one's color-->
+    <div id="oneSquare" class="dvSquares" data-color="red"></div>
+    <div id="twoSquare" class="dvSquares" data-color="green"></div>
+    <div id="threeSquare" class="dvSquares" data-color="blue"></div>
 
     <script src="app.js"></script>
     
