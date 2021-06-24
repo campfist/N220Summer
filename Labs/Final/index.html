@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<!--Create a style for the singular div holding all of the cards
+    Create a style for the class of divs that are the cards
+    Make sure that the divs are presented in a 4x4 grid container
+    For some reason I can't get my div that I am using to hold all my cards in to display in a grid
+
+-->
+<style>
+    .cardDeck {
+        width: 50%;
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        background-color: cyan;
+        align-items: center;
+    }
+
+    .cards {
+        width: 100px;
+        height: 100px;
+        margin: 5% 0;
+        text-align: center;
+        background-color: burlywood;
+    }
+</style>
+
+<body>
+
+    <!--Create 4 divs to hold all the cards for the game
+        Define these divs by a class
+        Create 4 divs for 4 cards to use for the game
+        Define them as a class and not by id
+        Grid display is not working for cardDeck div that I use to display all my cards
+        I just created another 4 divs and gave them a class name because I couldn't get just the one to work
+    -->
+    <div class="cardDeck">
+        <div class="cards">Flip</div>
+        <div class="cards">Flip</div>
+        <div class="cards">Flip</div>
+        <div class="cards">Flip</div>
+    </div>
+
+    <div class="cardDeck">
+        <div class="cards">Flip</div>
+        <div class="cards">Flip</div>
+        <div class="cards">Flip</div>
+        <div class="cards">Flip</div>
+    </div>
+
+    <div class="cardDeck">
+        <div class="cards">Flip</div>
+        <div class="cards">Flip</div>
+        <div class="cards">Flip</div>
+        <div class="cards">Flip</div>
+    </div>
+
+    <div class="cardDeck">
+        <div class="cards">Flip</div>
+        <div class="cards">Flip</div>
+        <div class="cards">Flip</div>
+        <div class="cards">Flip</div>
+    </div>
+
+    <script src="app.js"></script>
+
+</body>
+
+</html>
